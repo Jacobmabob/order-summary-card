@@ -1,6 +1,3 @@
-# order-summary-card
-My first attempt at a frontend mentor challenge!
-
 # Frontend Mentor - Order summary card
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
