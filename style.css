@@ -108,7 +108,7 @@ a {
     margin: 0 .5rem;
 }
 
-.cancel h3 {
+.cancel {
     color: hsl(224, 23%, 55%);
     margin: 1rem;
 }
@@ -120,13 +120,27 @@ a {
 }
 
 @media screen and (max-width: 800px) {
+    .container {
+        margin: 0;
+    }
     .card {
-        margin: 2rem;
-        border-radius: 0;
+        margin: 1rem;
     }
 
-    .hero-image {
-        border-radius : 0;
+    .card-content {
+        padding: 0 2rem;
+        margin: 3rem 0;
     }
+
+    .payment-sum {
+        padding: 0 0;
+    }
+
+    h3 {
+        margin: 1rem 4rem;
+    }
+
+   
+    
     
 }
