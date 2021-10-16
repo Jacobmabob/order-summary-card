@@ -1,12 +1,13 @@
 
-
 * {
     box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 html, body {
     margin: 0;
     height: 100%;
+    font-size: 16px;
 }
 
 body {
@@ -30,10 +31,102 @@ body {
     height: 700px;
     background-color: white;
     border-radius: 1rem;
-    box-shadow: 10px 10px 30px rgb(214, 212, 212);
+    box-shadow: 10px 0px 30px -10px rgb(214, 212, 212);
+    flex: 1 1 inherit;
+    text-align: center;
 }
 
 .hero-image {
     width: 100%;
     border-radius: 1rem 1rem 0 0 ;
+}
+
+.card-content {
+    padding: 0 5rem;
+    color: hsl(224, 23%, 55%);
+}
+
+h1 {
+    font-weight: 900;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: hsl(223, 47%, 23%);
+}
+
+h3 {
+    margin: 0.5rem 6rem;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    line-height: 1.75;
+    margin: 0;
+}
+
+.payment-sum {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    margin: 1.5rem;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+i {
+    margin: 0 .5rem;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1em;
+    border-radius: 50%;
+    color: hsl(224, 23%, 55%);
+}
+
+button {
+    color: white;
+    background-color: hsl(249, 62%, 50%);
+    border-radius: .5rem;
+    border: 2px solid transparent;
+    margin: 1rem;
+}
+
+button:hover {
+    background-color: hsl(249, 91%, 60%);
+    cursor: pointer;
+    transition-duration: 100ms;
+
+}
+
+a {
+    margin: 0 .5rem;
+}
+
+.cancel h3 {
+    color: hsl(224, 23%, 55%);
+    margin: 1rem;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color: hsl(223, 20%, 25%);
+    transition-duration: 100ms;
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        margin: 2rem;
+        border-radius: 0;
+    }
+
+    .hero-image {
+        border-radius : 0;
+    }
+    
 }
