@@ -1,0 +1,39 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url(assets/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center -300px;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+    margin: 0 10rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 30px rgb(214, 212, 212);
+}
+
+.hero-image {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0 ;
+}
